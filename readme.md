@@ -36,7 +36,7 @@ Ideal para criar senhas seguras contendo letras maiúsculas, minúsculas, númer
 ### 💻 Visualização do Projeto
 
 <p align="center">
-    <img src="./img/view.png" alt="Página inicial" width="700px">
+    <img src="./img/view2.png" alt="Página inicial" width="700px">
 </p>
 <p align="center">
    <a href="https://nathaliabaes.github.io/password-web/">📱 Acesse este Projeto
