@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #13121a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px; 
+}
+
+#container img {
+    width: 90px;  
+}
+
+#title {
+    font-weight: 500;
+    color: #f8fafc;
+    margin-bottom: 10px;
+}
+
+#password_container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #222;
+    padding: 8px 18px;
+    border-radius: 8px;
+    color: #f8fafc;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#password {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#copy {
+    background-color: transparent; 
+    border: none;
+    color:  #00c853;
+    height: 40px;
+    width: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#copy:hover {
+    color:  #1aa554;
+}
+
+#password_items {
+    width: 400px;
+    background-color: #222;
+    color: #f8fafc;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    gap: 8px;
+    padding: 18px;
+}
+
+.item {
+    display: flex;
+    gap: 14px;
+}
+
+#size {
+    background-color: #f8fafc;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    width: 50px;
+
+}
+
+#size::-webkit-inner-spin-button,
+#size::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+#generate {
+    padding: 10px 0px;
+    margin-top: 12px;
+    background-color: #00c853;
+    color: #f8fafc;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+#generate:hover {
+    background: #1aa554;
+    transform: translateY(-2px);
+}
+
+.toastify-top-right {
+    top: 20px;
+    right: 20px;
+    position: fixed;
+}
+
+/* 🔥 RESPONSIVIDADE — apenas media queries */
+@media (max-width: 480px) {
+
+    .container {
+        width: 90%;
+        padding: 25px;
+        border-radius: 12px;
+    }
+
+    .lock-icon {
+        width: 45px;
+        margin-bottom: 12px;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .message {
+        font-size: 14px;
+        padding: 8px 14px;
+        max-width: 90%;
+        top: 10px;
+    }
+}
+
