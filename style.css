@@ -121,9 +121,14 @@ body {
     position: fixed;
 }
 
-/* 🔥 RESPONSIVIDADE — apenas media queries */
 @media (max-width: 480px) {
 
+    #container img{
+        width: 80px;
+    }
+    #title {
+        font-size:25px;
+    }
     .container {
         width: 90%;
         padding: 25px;
@@ -133,6 +138,10 @@ body {
     .lock-icon {
         width: 45px;
         margin-bottom: 12px;
+    }
+
+    #password_container, #password_items {
+        width: 80%;
     }
 
     input {
