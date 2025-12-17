@@ -4,6 +4,10 @@
 Este projeto é um **gerador de senhas**, com **frontend em HTML/CSS/JS** e **backend em Python (Flask)**.  
 Ideal para criar senhas seguras contendo letras maiúsculas, minúsculas, números e caracteres especiais.
 
+> ⚠️ **Observação:** a geração da senha pode levar alguns segundos na primeira requisição.
+>  
+> Isso acontece porque o back-end está hospedado em um plano gratuito e pode entrar em modo de economia (cold start), sendo necessário “ativar” o servidor antes de processar a solicitação.
+
 ---
 
 ### 🚀 Tecnologias utilizadas
